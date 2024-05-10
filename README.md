@@ -1,7 +1,8 @@
-# My Smart Contract Project
+# Ransomware Eschrow Service
 
 ## Project Overview
-This project demonstrates a smart contract interaction where two Python clients, an attacker and a victim, interact with a Solidity-based smart contract. The clients are implemented in Python, and the smart contract is written in Solidity.
+Ransomware attacks have become increasingly prevalent in recent years, causing significant financial losses and disrupting operations for individuals and organizations alike. Traditional ransomware schemes rely on off-chain payment methods and lack transparency, leaving victims uncertain about the trustworthiness of the attackers. To address these issues, this project explores the concept of blockchain-based ransomware using smart contracts, aiming to introduce a degree of automation and fair exchange to the ransomware process.
+The proposed solution leverages the Ethereum blockchain and smart contracts to create a decentralized and transparent ransomware system. By utilizing smart contracts, the project enables victims to interact with the ransomware in a more automated and secure manner. The smart contract acts as an escrow service, holding the ransom payment until the attacker reveals the decryption keys. The project introduces novel features such as proof-of-life, allowing victims to request the decryption of a subset of files as a demonstration of the attacker's ability to decrypt the files. Additionally, the smart contract enforces a deadline for the attacker to reveal the decryption keys, providing a level of protection for the victims. The project aims to explore the technical feasibility and potential implications of blockchain-based ransomware, shedding light on the need for proactive measures to combat this emerging threat.
 
 ## Project Structure
 ```
