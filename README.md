@@ -65,8 +65,6 @@ npx hardhat run scripts/deploy.js --network localhost
 ```
 
 ## Running Python Clients
-### Configuration
-Update the `clients/config.json` file with appropriate smart contract and network information.
 
 ### Attacker Client
 ```
@@ -76,18 +74,6 @@ python clients/attacker.py
 ### Victim Client
 ```
 python clients/victim.py
-```
-
-## Running Tests (Optional)
-### Unit Tests 
-Unit tests are written using `pytest` for Python code and the Solidity test suite.
-
-```
-# Python Tests
-pytest tests/test_my_contract.py
-
-# Solidity Tests (if any)
-truffle test
 ```
 
 ## Example Usage
